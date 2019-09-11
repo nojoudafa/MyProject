@@ -1,0 +1,333 @@
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+header{
+  display: flex;
+  background-color:black;
+  height:90px;
+  justify-content: space-between;
+}
+
+.logo{
+  color: white;
+  font-size: 32px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  font-family: 'Dawning of a New Day', cursive;
+  font-weight: bolder;
+}
+
+.title1{
+  color: white;
+  font-size: 16px;
+  padding-left: 45px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+nav{
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  margin-right: 5px;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li{
+  display: inline;
+  padding: 7px;
+  list-style: none;
+}
+
+nav ul li button{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #fff;
+  text-decoration: none;
+  background-color: black;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  
+}
+
+nav ul li button:hover {
+  color: #b4a4a6;
+  transform: translateY(-7px);
+  transition: all 0.3s ease 0s;
+}
+
+nav ul li a:hover {
+  color: #b4a4a6;
+  transform: translateY(-7px);
+  transition: all 0.3s ease 0s;
+}
+
+
+
+
+/* cursol Sliders */
+
+.carousel {
+  background: #EEE;
+  width: 1100px;
+ 
+
+}
+
+.carousel-cell {
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.carousel-cell img {
+  display: block;
+  height: 200px;
+}
+
+@media screen and ( min-width: 768px ) {
+  .carousel-cell img {
+    height: 400px;
+  }
+}
+
+.slider{
+
+  display: flex;
+  margin-top: 12vh;
+
+}
+
+.helloText{
+  margin-top: 12vh;
+  margin-left: 12vh;
+  margin-right: 12vh;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color:black;
+  
+}
+
+.quote{
+  height:200px;
+  background-image: url(../images/Picture1.png);
+  padding: 100px;
+}
+
+.quote p{
+
+  font-family: 'Lato', sans-serif;
+  font-weight: 700px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color:white;
+
+}
+
+.about{
+  display: flex;
+  height:400px;
+  padding: 100px;
+  justify-content: space-between;
+
+}
+
+
+.about p{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color:black;
+  margin-left: 30px;
+}
+
+.about h1{
+  margin-left: 20px;
+
+}
+
+.border{
+
+  height: 400px;
+  width: 250px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+
+}
+
+#AboutImg{
+  
+  background-image: url(../images/aa.jpg);
+  background-size: contain;
+  background-repeat:no-repeat;
+
+
+}
+
+
+.social-networks{
+  list-style: none;
+  margin-left: 30px;
+  margin-top: 50px;
+
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 90%;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  
+}
+
+.fa:hover {
+    opacity: 0.7;
+    background-color: #b4a4a6;
+    box-shadow: 0px 15px 20px rgba(149, 149, 150, 0.4);
+    color: white;
+    transform: translateY(-7px);
+}
+
+
+.fa-twitter {
+  background: black;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: black;
+  color: white;
+}
+
+
+.fa-instagram {
+  background:  black;
+  color: white;
+}
+
+.fa-pinterest {
+  background:  black;
+  color: white;
+}
+
+
+
+
+/* Footer Section */
+
+
+
+.footer{
+  display: flex;
+  background-color: #d4c6c8;
+  height:150px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color:white;
+
+
+}
+
+#fText{
+  align-self: flex-end;
+  background-color: #b4a4a6;
+  height:40px;
+  width:100%;
+  text-align: center;
+  padding:10px;
+
+
+}
+
+
+.line{
+
+  background-color: #d4c6c8;
+  height:150px;
+  width:100%;
+  text-align: center;
+  padding:10px;
+
+}
+
+.contact{
+  background-color: white;
+  height: 200px;
+  width:100%;
+  text-align: center;
+  padding:10px;
+  border-color: black;
+
+}
+
+
+.contact p{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color:black;
+  margin-left: 30px;
+}
+
+.contact h1{
+  margin-top: 20px;
+
+}
+
+#start{
+  background-color: black;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  padding: 5px;
+  font-size: 16px;
+  width: 90px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  
+}
+
+#start:hover {
+    opacity: 0.7;
+    background-color: #b4a4a6;
+    box-shadow: 0px 15px 20px rgba(149, 149, 150, 0.4);
+    color: white;
+    transform: translateY(-7px);
+}
+
+
+#contactForm {
+  display:none;
+  background-color: white;
+  height: 350px;
+  width:100%;
+  padding:10px;
+}
+
+
